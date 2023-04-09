@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+    int num,count=1;
+    printf("Enter the number ");
+    scanf("%d",&num);
+    while(num)
+    {
+        if(num%2==1)
+        {
+            printf("The lsb is at %d location",count);
+            break;
+        }
+        else
+        {
+            num/=2;
+            count++;
+        }
+    }
+}
