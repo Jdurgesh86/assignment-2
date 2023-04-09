@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{   int num;
+    printf("input a number ");
+    scanf("%d",&num);
+    num=num/10;
+    num=num*10;
+    printf("\nthe new number is %d",num);
+    
+}
